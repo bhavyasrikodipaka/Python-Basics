@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyOonoHoQMa9gv7rwvyyI7sN",
+      "authorship_tag": "ABX9TyO0EtRU4Uz38KKfSHTML8EH",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -70,6 +70,72 @@
           "text": [
             "Enter your name:Bhavya\n",
             "Welcome to coding, Bhavya\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#creating a list of student names\n",
+        "students = [\"Bhavya\", \"Riya\", \"Preeti\", \"Ajay\"]\n",
+        "#printing the list\n",
+        "print(\"Initial list of students:\",students)\n",
+        "#adding a new student\n",
+        "students.append(\"Keerthi\")\n",
+        "print(\"Updated list of students:\",students)\n",
+        "#access individual students\n",
+        "print(\"First student:\",students[0])\n",
+        "print(\"Second student:\",students[1])\n",
+        "print(\"Total number of students:\",len(students))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ilsQ0h3U4JEw",
+        "outputId": "da300337-8777-4830-f122-588aecb595e3"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Initial list of students: ['Bhavya', 'Riya', 'Preeti', 'Ajay']\n",
+            "Updated list of students: ['Bhavya', 'Riya', 'Preeti', 'Ajay', 'Keerthi']\n",
+            "First student: Bhavya\n",
+            "Second student: Riya\n",
+            "Total number of students: 5\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#using for loop to greet every student in the list automatically\n",
+        "for student in students:\n",
+        "  print(f\"Hello {student}, welcome to Python class!\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "tkXGtdzp5tz-",
+        "outputId": "ff9e50a8-9414-4366-b49f-e3ad115c0c03"
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Hello Bhavya, welcome to Python class!\n",
+            "Hello Riya, welcome to Python class!\n",
+            "Hello Preeti, welcome to Python class!\n",
+            "Hello Ajay, welcome to Python class!\n",
+            "Hello Keerthi, welcome to Python class!\n"
           ]
         }
       ]
