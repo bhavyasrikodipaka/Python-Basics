@@ -1,0 +1,78 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOonoHoQMa9gv7rwvyyI7sN",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/bhavyasrikodipaka/Python-Basics/blob/main/01_python_basics.ipyb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "mccSzA2czn3g",
+        "outputId": "30f43354-d4c5-4b3f-fa71-dddb9679e44c"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Hello World! This is Bhavya's first Python code.\n"
+          ]
+        }
+      ],
+      "source": [
+        "print(\"Hello World! This is Bhavya's first Python code.\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "name = input(\"Enter your name:\")\n",
+        "print(\"Welcome to coding,\",name)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "V-lj41_n0jhG",
+        "outputId": "7448d8b5-75c7-4f6e-f07a-690b55eddd5c"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter your name:Bhavya\n",
+            "Welcome to coding, Bhavya\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
